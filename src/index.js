@@ -10,7 +10,8 @@ import AOS from "aos";
 AOS.init({
     duration: 1000,
     once: true,
-    mirror: false
+    mirror: false,
+    anchor: "top-top"
 });
 
 import VanillaTilt from "vanilla-tilt";
