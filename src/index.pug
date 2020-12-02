@@ -1,8 +1,56 @@
+// Created by Nathan Choi (github.com/b0kch01/InfluenceEffect)
 doctype
 html(lang='en')
     head
         meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
         title Influence Effect - PathCheck x TKS
     body
-        h1(data-aos="flip-up") hello
+        .container
+            img#banner(data-aos="zoom-in-down" data-aos-delay="1500" src="images/tksbanner.png")
+            .cards
+                span#show-slides(data-aos="fade-up" data-aos-delay="1800" data-aos-duration="1000")
+                    card
+                        svg.svg-inline--fa.fa-presentation.fa-w-18.fa-5x(aria-hidden='true' focusable='false' data-prefix='fad' data-icon='presentation' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 576 512')
+                            g.fa-group
+                                path.fa-secondary(fill='currentColor' d='M480 64h64v256a32 32 0 0 1-32 32H64a32 32 0 0 1-32-32V64h64v224h384z')
+                                path.fa-primary(fill='currentColor' d='M560 0H16A16 16 0 0 0 0 16v32a16 16 0 0 0 16 16h544a16 16 0 0 0 16-16V16a16 16 0 0 0-16-16zM320 386.75V352h-64v34.75l-75.31 75.31a16 16 0 0 0 0 22.63l22.62 22.62a16 16 0 0 0 22.63 0L288 445.25l62.06 62.06a16 16 0 0 0 22.63 0l22.62-22.62a16 16 0 0 0 0-22.63z')
+                        h2 Slidedeck
+
+                span#show-ad(data-aos="fade-up" data-aos-delay="2000" data-aos-duration="1000")
+                    card
+                        svg.svg-inline--fa.fa-photo-video.fa-w-20.fa-5x(aria-hidden='true' focusable='false' data-prefix='fad' data-icon='photo-video' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 640 512')
+                            g.fa-group
+                                path.fa-secondary(fill='currentColor' d='M608 0H160a32 32 0 0 0-32 32v96h160V64h192v320h128a32 32 0 0 0 32-32V32a32 32 0 0 0-32-32zM232 103a9 9 0 0 1-9 9h-30a9 9 0 0 1-9-9V73a9 9 0 0 1 9-9h30a9 9 0 0 1 9 9zm352 208a9 9 0 0 1-9 9h-30a9 9 0 0 1-9-9v-30a9 9 0 0 1 9-9h30a9 9 0 0 1 9 9zm0-104a9 9 0 0 1-9 9h-30a9 9 0 0 1-9-9v-30a9 9 0 0 1 9-9h30a9 9 0 0 1 9 9zm0-104a9 9 0 0 1-9 9h-30a9 9 0 0 1-9-9V73a9 9 0 0 1 9-9h30a9 9 0 0 1 9 9z')
+                                path.fa-primary(fill='currentColor' d='M416 160H32a32 32 0 0 0-32 32v288a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32V192a32 32 0 0 0-32-32zM96 224a32 32 0 1 1-32 32 32 32 0 0 1 32-32zm288 224H64v-32l64-64 32 32 128-128 96 96z')
+                        h2 Advertisment
+
+                span(data-aos="fade-up" data-aos-delay="2200" data-aos-duration="1000")
+                    card
+                        svg.svg-inline--fa.fa-wrench.fa-w-16.fa-5x(aria-hidden='true' focusable='false' data-prefix='fad' data-icon='wrench' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+                            g.fa-group
+                                path.fa-secondary(fill='currentColor' d='M322 280.47l-.26.26a144.62 144.62 0 0 1-90.3-90.64L18.09 403.41a64 64 0 0 0 90.5 90.5L322 280.49zM63.35 472.65a24 24 0 1 1 24-24 24 24 0 0 1-24 24z')
+                                path.fa-primary(fill='currentColor' d='M469.69 246.2c-40 40-97.48 51-147.72 34.27l-.26.26a144.64 144.64 0 0 1-90.41-90.94l.13-.13c-16.54-50.17-5.6-107.71 34.13-147.4a144.38 144.38 0 0 1 136.91-38 12 12 0 0 1 5.67 20.19l-74.53 74.48 11.33 68L413 178.28l74.53-74.52a12 12 0 0 1 20.17 5.52 144 144 0 0 1-38.01 136.92z')
+
+                span(data-aos="fade-up" data-aos-delay="2400" data-aos-duration="1000")
+                    card
+                        svg.svg-inline--fa.fa-wrench.fa-w-16.fa-5x(aria-hidden='true' focusable='false' data-prefix='fad' data-icon='wrench' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+                            g.fa-group
+                                path.fa-secondary(fill='currentColor' d='M322 280.47l-.26.26a144.62 144.62 0 0 1-90.3-90.64L18.09 403.41a64 64 0 0 0 90.5 90.5L322 280.49zM63.35 472.65a24 24 0 1 1 24-24 24 24 0 0 1-24 24z')
+                                path.fa-primary(fill='currentColor' d='M469.69 246.2c-40 40-97.48 51-147.72 34.27l-.26.26a144.64 144.64 0 0 1-90.41-90.94l.13-.13c-16.54-50.17-5.6-107.71 34.13-147.4a144.38 144.38 0 0 1 136.91-38 12 12 0 0 1 5.67 20.19l-74.53 74.48 11.33 68L413 178.28l74.53-74.52a12 12 0 0 1 20.17 5.52 144 144 0 0 1-38.01 136.92z')
+
+        
+        .modal.hide#slides
+            iframe(src='https://www.canva.com/design/DAEOn0-5u6w/view?embed')
+            svg#close-slides.svg-inline--fa.fa-times-circle.fa-w-16.fa-3x(aria-hidden='true' focusable='false' data-prefix='fal' data-icon='times-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+                path(fill='currentColor' d='M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 464c-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216 0 118.7-96.1 216-216 216zm94.8-285.3L281.5 256l69.3 69.3c4.7 4.7 4.7 12.3 0 17l-8.5 8.5c-4.7 4.7-12.3 4.7-17 0L256 281.5l-69.3 69.3c-4.7 4.7-12.3 4.7-17 0l-8.5-8.5c-4.7-4.7-4.7-12.3 0-17l69.3-69.3-69.3-69.3c-4.7-4.7-4.7-12.3 0-17l8.5-8.5c4.7-4.7 12.3-4.7 17 0l69.3 69.3 69.3-69.3c4.7-4.7 12.3-4.7 17 0l8.5 8.5c4.6 4.7 4.6 12.3 0 17z')
+
+        .modal.hide#ad
+            iframe.video(src='https://www.youtube.com/embed/4VsdN_l8dRY' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+            svg#close-ad.svg-inline--fa.fa-times-circle.fa-w-16.fa-3x(aria-hidden='true' focusable='false' data-prefix='fal' data-icon='times-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+                path(fill='currentColor' d='M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 464c-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216 0 118.7-96.1 216-216 216zm94.8-285.3L281.5 256l69.3 69.3c4.7 4.7 4.7 12.3 0 17l-8.5 8.5c-4.7 4.7-12.3 4.7-17 0L256 281.5l-69.3 69.3c-4.7 4.7-12.3 4.7-17 0l-8.5-8.5c-4.7-4.7-4.7-12.3 0-17l69.3-69.3-69.3-69.3c-4.7-4.7-4.7-12.3 0-17l8.5-8.5c4.7-4.7 12.3-4.7 17 0l69.3 69.3 69.3-69.3c4.7-4.7 12.3-4.7 17 0l8.5 8.5c4.6 4.7 4.6 12.3 0 17z')
+
+        .splash
+            h1#title(data-aos="zoom-in") Influence Effect
+
         script(src="index.js")

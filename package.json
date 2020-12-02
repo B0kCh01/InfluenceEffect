@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "aos": "^2.3.4",
+    "main": "^1000.0.1",
+    "main.css": "^2.1.0",
     "normalize.css": "^8.0.1",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "vanilla-tilt": "^1.7.0"
   },
   "devDependencies": {
-    "pug": "^3.0.0"
+    "pug": "^3.0.0",
+    "sass": "^1.29.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
