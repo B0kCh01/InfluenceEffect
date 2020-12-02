@@ -2,7 +2,9 @@ import "normalize.css";
 import "aos/dist/aos.css";
 import "./main.scss";
 
-import "@fortawesome/fontawesome-free/js/all";
+import "@fortawesome/fontawesome-free/js/fontawesome";
+import "@fortawesome/fontawesome-free/js/regular";
+
 import AOS from "aos";
 
 AOS.init({
@@ -17,7 +19,6 @@ VanillaTilt.init(cards, {
     scale: 1.1
 });
 
-
 // Splashscreen animations
 setTimeout(function() {
     document.querySelector(".splash").className = "splash hide";
@@ -25,18 +26,6 @@ setTimeout(function() {
         document.querySelector(".splash").remove();
     }, 1000);
 }, 2000);
-
-
-// Simluate Clicking to pause youtube video
-function click(el, etype){
-    if (el.fireEvent) {
-        el.fireEvent('on' + etype);
-    } else {
-        var evObj = document.createEvent('Events');
-        evObj.initEvent(etype, true, false);
-        el.dispatchEvent(evObj);
-    }
-}
 
 // Modals
 
@@ -55,3 +44,5 @@ for (const id of boxes) {
         document.querySelector("#" + id).className = "modal";
     });
 }
+
+console.log("🦄 Hello, World!");

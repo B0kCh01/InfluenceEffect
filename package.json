@@ -10,6 +10,8 @@
     "main.css": "^2.1.0",
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.4",
+    "uglify-js": "^3.12.1",
+    "uglifyjs": "^2.4.11",
     "vanilla-tilt": "^1.7.0"
   },
   "devDependencies": {
@@ -17,7 +19,8 @@
     "sass": "^1.29.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod": "parcel build src/index.pug --no-source-maps && vercel --prod",
+    "dev": "parcel src/index.pug"
   },
   "repository": {
     "type": "git",

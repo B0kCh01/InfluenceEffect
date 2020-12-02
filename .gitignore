@@ -106,3 +106,4 @@ dist
 # Parcel Stuff
 .cache
 dist
+.vercel
