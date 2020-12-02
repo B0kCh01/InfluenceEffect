@@ -1,0 +1,27 @@
+{
+  "name": "influenceeffect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "pug": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B0kCh01/InfluenceEffect.git"
+  },
+  "author": "b0kch01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/B0kCh01/InfluenceEffect/issues"
+  },
+  "homepage": "https://github.com/B0kCh01/InfluenceEffect#readme"
+}
