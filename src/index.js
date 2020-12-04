@@ -31,7 +31,7 @@ setTimeout(function() {
 
 // Modals
 
-let boxes = ["slides", "ad"];
+let boxes = ["slides", "ad", "pdf"];
 for (const id of boxes) {
     const closeSlides = document.querySelector("#close-" + id);
     if (closeSlides) closeSlides.addEventListener("click", function() {
