@@ -28,9 +28,9 @@ body {
 
     .cards {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     #banner {
@@ -49,9 +49,9 @@ body {
     top: 0;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     background: #4c6dff;
     transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 
@@ -68,33 +68,33 @@ body {
 }
 
 .modal {
-    position: fixed;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
     top: 0;
     width: 100vw;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     background: rgba(black, 0.7);
     transition: top 1s cubic-bezier(.69,0,.26,.99), opacity 1s cubic-bezier(.69,0,.26,.99);
     border: none;
-    margin: 0;
 
     iframe, video {
         width: 90vw;
-        height: 90vh;
         max-width: 1300px;
+        height: 90vh;
         max-height: 1000px;
         border: none;
         outline: none;
     }
 
     svg {
-        cursor: pointer;
-        color: rgb(255, 56, 56);
         position: fixed;
         top: 30px;
         right: 30px;
+        cursor: pointer;
+        color: rgb(255, 56, 56);
         transition: all .3s ease-in-out;
     }
 }
@@ -110,14 +110,14 @@ body {
 
 card {
     display: flex;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 90vw;
     max-width: 400px;
     height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
+    cursor: pointer;
     background: rgb(243, 243, 243);
     border-radius: 20px;
     box-shadow: rgba(black, 0.05) 0 2px 5px;
